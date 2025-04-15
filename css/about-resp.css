@@ -1,0 +1,386 @@
+@media screen and (max-width:1400px) {
+    
+    .subscribe div{
+        max-width: 50% !important;
+    }
+
+
+    .tomato-sauce{
+        max-height: 120vh !important;
+    }
+
+    .tomato-sauce div{
+        height: 100% !important;
+    }
+ 
+    .tomato-sauce div,.salad div{
+        padding: 0rem !important;
+ 
+    }
+
+    .salad{
+        background-color: #1C2123;
+    }
+    
+
+}
+
+@media screen and (max-width:1300px){
+
+    .subscribe h2{
+        max-width: 75% !important;
+    }
+ 
+
+
+
+}
+
+@media screen and (max-width:1275px) {
+
+    header .about{
+        max-width: 55% !important;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+
+    html{
+        font-size: 14px;
+    }
+
+    .subscribe div{
+
+        max-width: 60% !important;
+
+    }
+
+   
+}
+
+@media screen and (max-width:1115px) {
+    
+    header .about h1{
+
+        font-size: 5.2rem !important;
+
+     }
+
+}
+
+@media screen and (max-width:1060px){
+
+    html{
+        font-size: 12px;
+    }
+
+    header nav a{
+        font-size: 1.8rem;
+    }
+
+
+    .tomato-sauce div a{
+        padding:1.4rem 2rem;
+        font-size: 1.4rem;
+    }
+
+    .salad div a{
+        padding: 1.4rem 2rem;
+        font-size: 1.4rem;
+    }
+
+
+    .subscribe div p{
+        font-size: 1.6rem;
+    }
+
+    .footer .footer-container h2{
+        font-size: 2.2rem;
+    }
+
+    .footer .footer-container p{
+        font-size: 1.2rem;
+    }
+    .footer .footer-container ul li{
+        font-size: 1.4rem;
+    }
+
+    
+}
+
+@media screen and (max-width:980px){
+    
+
+    html{
+        font-size: 10px;
+    }
+
+ 
+
+    header nav .title{
+        font-size: 2.5rem;
+    }
+
+    header nav a{
+        font-size: 2rem;
+    }
+
+    .footer .footer-container h2{
+        font-size: 2.5rem;
+    }
+
+    .footer .footer-container p{
+        font-size:1.5rem;
+    }
+
+    .footer .footer-container div ul li{
+        font-size: 1.7rem;
+       }
+    
+    .footer-container  .icons img{
+        max-width: 2.5rem;
+    }
+
+
+}
+
+@media screen and (max-width:920px){
+
+    html{
+        font-size: 9px;
+    }
+
+    header .about{
+        max-width: 80% !important;
+     }
+
+    header  .about h1{
+        font-size: 7rem;
+    }
+
+    header nav a{
+        font-size: 2.4rem;
+    }
+
+
+    .subscribe div p{
+        font-size: 1.8rem;
+    }
+   
+    
+}
+
+@media screen and (max-width:800px){
+
+
+
+
+    html{
+        font-size: 11px;
+    }
+
+    header{
+        min-height: 60vh !important;
+        height: 100% !important;
+    }
+
+
+  header .about {
+    max-width: 60%;
+  }
+
+  header .about h1{
+    font-size: 6rem;
+  }
+
+ header nav{
+    padding: 2rem ;
+ }
+
+
+  header nav .mid{
+    display: none !important;
+   }
+
+   header nav .L-nav{
+    display: flex;
+    align-items: center;
+    
+   }
+
+   header nav .L-nav a{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size:1.4rem;
+  
+   }
+
+   .show-bar-show{
+    display: inline-block !important;
+  }
+
+
+   .fish-burger h2{
+    max-width: 98% !important;
+   }
+   
+
+   .fish-burger div{
+    flex-direction: column;
+   }
+
+   .fish-burger div  p{
+    margin-bottom: 4rem !important;
+   }
+
+  .tomato-sauce{
+    flex-direction: column;
+  }
+
+  .tomato-sauce img,.salad img{
+    display: none;
+     }
+
+  .tomato-sauce div{
+    padding: 5rem 0rem !important;
+  }
+
+ .salad{
+    flex-direction: column-reverse;
+ }
+
+ .salad div{
+    padding: 3rem !important;
+ }
+
+
+ .tomato-sauce div span , .salad div span{
+    font-size: 2rem;
+ }
+
+ .subscribe p{
+    margin-bottom: 2rem;
+ }
+
+ .subscribe div{
+     display: flex;
+    flex-direction: column;
+    max-width: 75% !important;
+ }
+
+ .footer .footer-container{
+    justify-content: space-between !important;
+ }
+
+ .footer .footer-container div {
+
+    min-width: 45% !important;
+
+}
+
+}
+
+@media  screen and (max-width:760px){
+
+    .subscribe div{
+        max-width: 75% !important;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+  
+    .subscribe div{
+        max-width: 80% !important;
+    }
+    
+}
+
+@media screen and (max-width:685px){
+
+
+  .subscribe div{
+   }
+    
+}
+
+
+@media screen  and (max-width:680px) {
+
+    header .about h1{
+        font-size: 5rem;
+    }
+
+    .footer .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .footer-container div{
+        margin-bottom: 1rem !important;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+
+
+     
+    header .about{
+        min-width: 60% !important;
+    }
+     
+   
+}
+
+@media screen and (max-width:500px){
+ 
+    html{
+        font-size: 8px;
+    }
+
+    .fish-burger{
+        padding: 3rem;
+    }
+
+    .fish-burger div img{
+        max-width: 80%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:450px){
+
+   header nav .L-nav a{
+    font-size: 1.6rem;
+   }
+
+
+    .fish-burger div img{
+        max-width: 100%;
+    }
+
+
+    
+}
+
+@media screen and (max-width:390px){
+
+
+    header .about h1{
+        font-size: 4.5rem;
+    }
+    
+}
+
+@media screen and (max-width:352px){
+    
+    header .about h1{
+        font-size: 4rem !important;
+     }
+}

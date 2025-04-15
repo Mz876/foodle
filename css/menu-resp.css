@@ -1,0 +1,236 @@
+@media screen and (max-width:1120px){
+
+    html{
+        font-size: 14px !important;
+    }
+    
+
+    .container .c-1 h1{
+        font-size: 3.6rem;
+    }
+
+    .container .c-1 p{
+        font-size: 1.4rem;
+    }
+
+
+    .container .toggle span{
+        font-size: 1.5rem;
+    }
+
+    .container a{
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        max-width: 100% !important;
+    }
+
+    .menu .food h3{
+        font-size: 1.5rem;
+    }
+
+    .footer .footer-container{
+        max-width: 90% !important;
+     }
+
+}
+
+
+@media screen and (max-width:950px){
+
+    .footer .footer-container div{
+        max-width: 45% !important;
+    }
+
+}
+
+
+@media screen and (max-width:860px){
+
+    html{
+        font-size: 13px;
+    }
+
+    .menu{
+        max-width: 100%;
+    }
+
+    .menu .food{
+        min-width: 33% !important;
+    }
+
+    
+}
+
+
+@media screen and (max-width:760px){
+
+    .container .c-1 p{
+        font-size: 1.25rem;
+        max-width: 60%;
+    }
+    
+}
+
+@media screen and (max-width:730px){
+
+    .show-humb{
+        display: inline-block !important;
+    }
+
+    html{
+        font-size: 11px;
+    }
+
+    header nav{
+        width: 90% !important;
+        justify-content: space-between !important;
+    }
+
+    header nav .nav-mid{
+        display: none;
+    }
+    
+
+    .footer .footer-container div{
+        min-width: 45% !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:589px) {
+
+
+    .menu{
+    
+        display: block !important;
+      
+    }
+
+     .menu .food{
+        max-width: 50% !important;
+        margin: auto;
+        margin-bottom: 3rem;
+     }
+
+     .container .c-1 .toggle span{
+        font-size: 1.3rem;
+        margin: 0 0.5rem;
+     }
+    
+}
+
+
+@media screen and (max-width:522px){
+
+    html{
+        font-size: 10px;
+    }
+
+    .container .c-1 .toggle span{
+       margin: 0.2rem;
+    }
+
+    .menu .food{
+        max-width: 55% !important;
+    }
+
+    .toggle button{
+        display: inline-block !important;
+    }
+ 
+ 
+    .toggle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+   
+    .toggle #last{
+        margin-top: 1rem !important;
+        margin-left: 2rem !important;
+         }
+  
+
+}
+
+  
+
+
+@media screen and (max-width:450px){
+
+    html{
+        font-size: 7px;
+    }
+
+    header nav {
+        padding:2.4rem 2rem;
+     }
+
+    header nav .login,header nav .signup{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+     }
+
+    .menu .food{
+        max-width: 60% !important;
+    }
+
+    .c-1 div span{
+        padding: 0.3rem 0.5rem;
+    }
+
+    .footer .footer-container{
+        flex-direction: column;
+    }
+
+    .footer .footer-container div{
+        max-width: 90% !important;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    html{
+        font-size: 6px;
+    }
+
+    .container .c-1 p{
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .c-1 div span{
+        padding: 0.3rem;
+    }
+
+    .c-1 .toggle button{
+        padding: 0.2rem 0.8rem !important;
+        margin: 0 0.5rem !important;
+    }
+
+     
+    .menu .food{
+        max-width: 70% !important;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:360px){
+
+    .c-1 div span{
+        display: inline-block;
+        padding: 0.2rem;
+        margin: 1rem;
+     }
+    
+}

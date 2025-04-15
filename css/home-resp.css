@@ -1,0 +1,634 @@
+@media screen and (max-width:1778px){
+
+
+    .Categories div img{
+        margin-bottom: 3.5rem !important;
+    }
+    
+}
+
+@media  screen and (max-width:1480px){
+    
+    html{
+        font-size: 13px;
+    }
+
+   
+    header nav a{
+        font-size: 1.5rem;
+    }
+
+ .container   .Categories div img{
+        margin-bottom: 3.5rem;
+    }
+ 
+
+ 
+ 
+}
+
+
+@media screen and (max-width:1340px){
+    html{
+        font-size: 11px;
+    }
+
+    header .title{
+        font-size: 2.5rem !important;
+    }
+
+    header nav a{
+        font-size: 2rem !important;
+    }
+
+    
+
+    header  .BO .play span{
+        font-size: 1.3rem;
+    }
+
+    .container .c-1{
+        justify-content: space-between;
+    }
+
+    .container .c-1 h2{
+        font-size: 3.2rem;
+    }
+
+    .container .c-1 h4{
+        font-size: 1.5rem;
+    }
+
+    .Categories h3{
+        font-size: 2rem;
+    }
+
+    .Categories span{
+        font-size: 1.5rem;
+    }
+
+
+    .menu h2{
+        font-size: 3rem;
+    }
+
+     
+
+    .menu .m-1 h4{
+        font-size: 1.8rem;
+    }
+
+
+    .menu .m-1 a{
+        font-size: 1.5rem;
+        max-height: 3rem;
+    }
+
+    .menu .food h3{
+       font-size: 2rem;
+
+    }
+
+    .menu .food .buy span{
+        font-size:2rem;
+    }
+
+    .menu .food .buy a{
+        font-size: 1.2rem;
+    }
+
+    .footer .footer-container div h2{
+        font-size: 3rem;
+    }
+
+    .footer .footer-container div p{
+        font-size: 1.6rem;
+    }
+
+    .footer .footer-container div li{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+@media screen and (max-width:1240px){
+
+    html{
+        font-size: 10px;
+    }    
+    
+    .menu .food h3{
+        font-size: 1.6rem;
+    }
+
+    header .main .main-1 .BO .play span{
+        font-size: 1.4rem;
+    }
+
+
+  
+
+ 
+}
+
+@media screen and (max-width:1100px){
+
+    html{
+        font-size: 9px;
+    }
+
+    header nav div a{
+        font-size: 1.8rem;
+    }
+
+    header .main{
+        padding: 2rem 12rem;
+     }
+
+    header .main-1{
+        margin-top: 8rem;
+        margin-right: 20rem;
+    }
+
+    header .arrow{
+      top: 16% !important;
+     }
+
+   header .main .main-1 p{
+        font-size: 1.5rem;
+    }
+
+    header .motivators {
+        max-width: 75%;
+    }
+
+    header .motivators .motive div h3{
+        font-size: 2rem;
+    }
+
+    header .motivators .motive div p{
+        font-size: 1.2rem;
+    }
+
+    
+    .container{
+        max-width: 90%;
+     }
+
+    .container .c-1{
+        justify-content: space-between;
+        padding: 0rem 3rem;
+    }
+    .container .Categories{
+        margin-bottom: 18rem;
+    }
+}
+
+
+@media  screen and (max-width:990px){
+
+    html{
+        font-size: 8px;
+    }
+
+    header .title{
+        font-size: 3rem !important;
+    }
+
+    header nav a{
+        font-size: 2.4rem !important;
+    }
+     
+
+    header .arrow{
+        right: 43% !important;
+    }
+
+    .container .menu .m-2 .food h3{
+        font-size: 1.8rem;
+
+    }
+
+    .container .menu .m-2 .img{
+        top: -25%;
+        right: -20%;
+    }
+
+   .container .menu .m-2 .food .buy{
+         display: block;
+    }
+
+    .menu .m-2 .food .buy span{
+        margin-right: 1rem;
+    }
+
+    .footer h2{
+        font-size: 3rem !important;
+    }
+
+    .footer .footer-container p{
+        font-size: 2.2rem !important;
+    }
+
+    .footer .footer-container ul li{
+        font-size: 2rem !important;
+    }
+
+}
+
+@media screen and (max-width:885px){
+
+  header .arrow{
+    right: 40% !important;
+  }
+
+ 
+
+  header .main .main-1{
+    margin-right: 12rem !important;
+    margin-top: 3rem !important;
+    max-width: 40%;
+
+  }
+
+  header .main .main-2{
+    max-width: 40%;
+  }
+
+  header .motivators{
+    min-width: 70%;
+    top:98%;
+  }
+
+  .container{
+    max-width: 80%;
+  }
+
+ .container .Categories{
+    margin-bottom: 14rem;
+ }  
+
+ .menu .m-2 .food{
+    min-width: 40% !important;
+  }
+
+ .menu .food .img{
+    right: -25% !important;
+ }
+
+
+ .footer .footer-container div{
+
+    max-width: 45%;
+    width: 100% !important;
+
+ }
+
+ 
+    
+}
+
+@media screen and (max-width:750px){
+
+
+    header .main{
+        align-items: center;
+    }
+
+    header .main .main-1{
+        min-width: 50%;
+        margin-right: 5rem;
+    
+    }
+
+    header .main .arrow{
+        right : 35% !important;
+    }
+
+     header .main .main-2{
+        min-width:40% !important;
+     }
+
+}
+ 
+
+
+@media screen and (max-width:700px) {
+
+    
+    .container .menu .m-2 .food{
+        min-width: 40%;
+    }
+
+
+  header  .motivators  div h3{
+     font-size: 1.4rem;   
+    }
+
+    header .motivators div p{
+        font-size: 1rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:660px){
+
+    html{
+        font-size: 6px;
+    }
+
+
+    header nav{
+        padding: 2rem 3rem;
+    }
+
+    nav .title{
+        font-size: 4rem !important;
+    }
+
+    header nav a{
+        font-size: 2.5rem !important;
+        margin-right: 2rem;
+    }
+
+    header nav .humbergure-Icon{
+        display: inline-block;
+        max-width: 4rem;
+        z-index: 3333;
+         margin-left: 1rem;
+        
+    }
+
+   
+    header nav div{
+        display: none;
+    }
+
+    header nav .L-nav{
+        display: flex;
+         align-items: center;
+    }
+
+    header nav .L-nav a{
+        padding: 1rem;
+    }
+
+    header .motivators{
+        display: none;
+    }
+
+
+    header  .main  .main-1 .BO{
+        justify-content: left;
+    }
+
+    header .main .main-1 .BO .BuyNow{
+        margin-right: 2rem;
+    }
+
+
+
+   .container .Categories{
+        display: none;
+    }
+
+    .container{
+         margin: 1rem auto ;
+     }
+
+     .container .c-1{
+        padding: 0 !important;
+     }
+
+    .container .c-1 h2{
+        font-size: 4rem;
+        
+    }
+
+    .container .c-1 h4{
+        font-size: 2rem;
+    }
+
+   .menu h2{
+        font-size: 4.5rem;
+    }
+
+    .menu .m-1 h4{
+        font-size: 2.4rem;
+
+    }
+
+    .menu .m-1 a{
+        font-size: 2.5rem;
+        max-height: 4rem;        
+    }
+
+    .container .menu .m-2 .food{
+        margin: 3rem 0rem;
+     }
+
+     .container .menu .m-2 .food .rating img{
+        max-width: 2rem;
+     }
+
+     .container .menu .m-2 .food .img{
+        max-width: 14rem;
+        max-height:14rem;
+     }
+
+     .container .menu .m-2 .food img{
+        max-width: 11.5rem;
+        max-height: 11.5rem;
+     }
+
+     .container .menu .m-2 .food h3{
+        font-size: 2.7rem;
+    }
+
+    .container .menu .m-2 .food .buy {
+        display: block;
+    }
+
+    .container .menu .m-2 .food .buy span{
+        font-size: 3rem;
+        display: inline-block;
+        margin-right: 2rem;
+    }
+
+    .container .menu .m-2 .food .buy a{
+        font-size: 2rem;
+    }
+
+
+    .container .offers{
+        display: none;
+    }
+
+    .footer .footer-container div h2{
+        font-size:3.5rem !important;
+    }
+
+    .footer .footer-container div p{
+        font-size: 1.5rem;
+    }
+
+    .footer .footer-container ul li{
+        font-size: 2.4rem !important;
+    }
+
+}
+
+@media screen and (max-width:585px){
+    
+
+     
+
+    .menu .food .img{
+        max-width: 19rem;
+        max-height: 19rem;
+        right: -10% !important;
+    }
+
+    .menu .food .img img{
+        max-width: 16.5rem;
+        max-height: 16.5rem;
+    }
+
+}
+
+
+@media screen and (max-width:550px){
+
+    .container .menu .m-2 .food{
+        margin-bottom: 6rem;
+    }
+    
+    .container .menu .m-2 .food .img{
+        top: -35% !important;
+        right: -15% !important;
+      }
+
+}
+
+@media screen and (max-width:500px){
+
+    nav .title{
+        font-size: 3.5rem !important;
+    }
+
+    header nav a{
+        font-size: 2.3rem !important;
+    }
+
+     header .main .main-1{
+        margin-right: 5rem !important;
+     }
+
+ header   .main .main-2{
+        min-width: 58% !important;
+    }
+
+    .container  .c-1{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .c-1 h2{
+        margin-bottom: 2rem;
+    }
+
+   .container .menu .m-2 .food{
+    width: 65%;
+    margin:4.5rem auto;
+    
+   }
+
+   .footer .footer-container{
+     flex-direction: column;
+   }
+
+   .footer .footer-container div{
+    max-width: 100% !important;
+   }
+
+   .footer-container .icons{
+     margin: 3rem 0rem;
+   }
+
+   .footer .footer-container .icons img{
+    max-width: 3rem;
+   }
+
+   .footer-container div h2{
+
+    font-size: 4rem;
+   }
+
+   .footer-container div p{
+     font-size: 2.1rem;
+   }
+
+   .footer-container div ul li{
+    font-size: 2rem;
+   }
+
+
+}
+
+
+@media screen and (max-width:450px){
+
+    header .arrow{
+        display: none ;
+    }
+    
+}
+
+
+
+@media screen and (max-width:400px){
+
+    header .main {
+        padding: 2rem 8rem;
+    }
+
+    header .main .main-1{
+        margin-right: 0rem !important;
+    }
+
+    header .main .main-1 .BuyNow{
+        margin-right: 2rem;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+    
+  .container .menu h2{
+    font-size: 3rem !important;
+  }
+
+  .container  .menu .m-1 h4{
+        font-size: 2rem !important;
+        display: no;
+    }
+
+}
+
+@media screen and (max-width:340px){
+
+    header .main .main-1 h2{
+        font-size: 2.8rem !important;
+    }
+
+
+   
+    
+}
+
+ 

@@ -1,0 +1,109 @@
+
+#first{
+    opacity: 0;
+}
+
+#second{
+    opacity: 0;
+}
+
+#signature{
+    opacity: 0;
+}
+
+#signature2{
+    opacity: 0;
+}
+
+
+#desc{
+    opacity: 0;
+}
+
+#desc2{
+    opacity: 0;
+}
+
+#btn{
+    opacity: 0;
+}
+
+#btn2{
+    opacity: 0;
+}
+
+/*--------------------------------------------*/
+
+#sidon{
+
+    opacity: 0;
+
+}
+
+#beirut{
+    opacity: 0;
+}
+
+#location{
+    opacity: 0;
+}
+
+#location2{
+    opacity: 0;
+}
+
+
+#time{
+    opacity: 0;
+}
+
+#time2{
+    opacity: 0;
+}
+
+
+#btw{
+    opacity: 0;
+}
+
+#btw2{
+    opacity: 0;
+}
+
+
+#directionBtn{
+    opacity: 0;
+}
+
+#directionBtn2{
+    opacity: 0;
+}
+
+
+
+
+/*----------------------------------------------*/
+
+
+.container-bottom-to-up {
+ overflow: hidden;
+ margin: 0px;
+}
+.bottom-to-up {
+ animation: 1000ms bottom-to-up forwards;
+   opacity: 1 !important;
+ }
+@keyframes bottom-to-up {
+ from {
+ transform: translateY(68px);
+ }
+ to {
+ transform: translateX(0px);
+ }
+}
+
+.holder{
+    height: 100vh;
+    width: 100vw;
+}
+

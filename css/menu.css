@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+ 
+ }
+
+
+
+ 
+
+ /*------------------------------*/
+
+
+ 
+.different{
+    border:none;
+    position: relative;
+    padding-bottom: 10px !important;
+    }
+  .different:hover{
+    border: none;
+}
+  
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: #e32929;
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+
+
+
+
+ /*------------------------------*/
+
+
+ #humb-Icon{
+    display: none;
+    max-width: 2rem;
+ }
+
+ 
+#side-bar{
+    position: fixed;
+  right: -360px;    
+  top: 0;
+  z-index: 3333;
+  width: 300px;
+  height: 100%;
+  background-color: #ffc43a;
+  transition: all ease 0.5s;
+     
+} 
+
+ .side-bar-show{
+        width: 100%;
+         right: 0px !important;
+        }
+
+
+.side-bar div img{
+   max-width: 1.5rem;
+   margin: 1rem;
+}
+
+.side-bar ul {
+   list-style-type: none;
+   width: 100% !important;
+   margin-top: 5rem;
+
+}
+
+.side-bar ul li{
+   text-align: center;
+   border-top: 1px solid black;
+   
+   padding:  1rem 0rem;
+}
+
+.side-bar ul li:last-child{
+   border-bottom: 1px solid black;
+}
+
+.side-bar ul li a{
+   text-decoration: none;
+   color: black;
+    font-size: 22px;
+   font-weight: 500;
+}
+
+header{
+    max-width: 100%;
+
+    background-color: #ffb80e;
+}
+
+header nav{
+    padding: 2.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100% !important;
+    transition: all ease-in-out 0.1s;
+    z-index: 333;
+    position: fixed;
+    background-color: #ffb80e;
+    top: 0;
+    
+
+   }
+
+ 
+
+header nav .title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+header nav .login, nav .signup{
+     padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    background-color: #ff611d;
+    color: white;
+}
+
+
+header nav .auth{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 90%;
+     margin: auto;
+}
+
+.container .c-1{
+    text-align: center;
+     margin: 4rem 0;
+     margin-top: 10rem !important;
+ }
+
+ .container .c-1 h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+ }
+
+ .container .c-1 p{
+    max-width: 45%;
+    margin: auto;   
+     margin-bottom: 3rem;
+     font-size: 1.1rem;
+     font-weight: 500;
+}
+
+ .c-1 .toggle{
+    margin-bottom: 3rem;
+  }
+
+ .c-1  .toggle button{
+    margin: 0 1rem !important;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    padding:0.3rem 1rem !important;
+ }
+
+.c-1 a{
+    border: 2px solid black;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu  {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.menu .food{
+    margin: 2rem;
+      border-radius: 1rem;
+     padding: 1rem 0.7rem;
+     min-width: 20%;
+      background-color: #ffb80e;
+     position: relative;     
+}
+
+.menu .food .img{
+    
+    position: absolute;
+    top: -15%;
+    right: -15%;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 67, 67);
+    height: 140px;
+    width: 140px;
+}
+
+.food .img img{
+    width: 100%;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+.menu .food h3{
+    margin-top: 8rem;
+
+ }
+
+ 
+.rating {
+    display: flex;
+    margin-bottom: 0.9rem;
+    background-color: red;
+    max-width: 35% !important;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.menu .rating img{
+    max-width: 1rem;
+    margin-right: 0.2rem;
+}
+
+.menu .food .buy a{
+    background-color: red;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-radius: 0.8rem;
+ }
+
+.menu .food .buy{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+
+.menu .food .buy span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+footer{
+    max-width: 100%;
+    padding: 3rem 0rem;
+    background-color: #ffb80e;
+    ;
+}
+
+.footer-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container h2{
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(231, 0, 0);
+}
+
+.footer-container p{
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.footer-container ul{
+    list-style-type: none;
+}
+
+.footer-container ul li{
+    color: white;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-container .icons{
+    display: flex;
+}
+.footer-container .icons img{
+    max-width: 1.5rem;
+    margin-right: 1rem;
+}

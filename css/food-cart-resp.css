@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@media(max-width:600px){
+
+    .food-cart{
+    
+       width: 380px !important;
+    }   
+
+    .header img{
+        margin-right: 130px !important;
+     }
+}
+
+@media(max-width:530px){
+
+
+
+}
+
+@media(max-width:385px){
+    .food-cart{
+        width: 350px !important;
+    }
+
+    .header img{
+        margin-right: 110px !important;
+    }
+}
+
+@media(max-width:375px){
+    .food-cart .food h2{
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(max-width:345px){
+
+    .food-cart{
+        width: 315px !important;
+    }
+    
+    .header img{
+        margin-right: 100px !important;
+    }
+}

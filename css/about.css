@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+     font-family:sans-serif;
+
+  }
+
+  #humb-Icon{
+    max-width: 3rem;
+    display: none;
+  }
+
+/*--------------Nav anchor hover------------*/
+
+
+.different{
+    border:none;
+    position: relative;
+    padding-bottom: 10px !important;
+    }
+  .different:hover{
+    border: none;
+}
+  
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: #e32929;
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+
+
+
+  
+#side-bar{
+    position: fixed;
+  right: -360px;    
+  top: 0;
+  z-index: 3333;
+  width: 300px;
+  height: 100%;
+  background-color: #DC9457;
+  transition: all ease 0.5s;
+     
+} 
+
+ .side-bar-show{
+        width: 100%;
+         right: 0px !important;
+        }
+
+
+.side-bar div img{
+   max-width: 3rem;
+   margin: 1rem;
+}
+
+.side-bar ul {
+   list-style-type: none;
+   width: 100% !important;
+   margin-top: 8rem;
+
+}
+
+.side-bar ul li{
+   text-align: center;
+   border-top: 1px solid black;
+   
+   padding:  2rem 0rem;
+}
+
+.side-bar ul li:last-child{
+   border-bottom: 1px solid black;
+}
+
+.side-bar ul li a{
+   text-decoration: none;
+   color: black;
+    font-size: 20px;
+   font-weight: 500;
+}
+
+
+header{
+     background-image:url('../images/food/Burgers.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh !important;
+    position: relative;
+    
+ }
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 333;
+    transition: all ease-in-out 0.1s;
+ }
+
+ header nav.scrolled{
+
+    background-color: #b95a00;
+
+ }
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    margin: 0.8rem;
+}
+
+header  .title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .about{
+    text-align: center;
+    max-width: 35%;
+    margin:auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+}
+ 
+
+.about h1{
+    font-size: 5.5rem;
+    margin: 1rem 0rem;
+    padding: 4rem 0rem;
+    color: white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+
+}
+
+header nav .L-nav a{
+    border-radius: 1rem;
+    padding: 0.8rem 1.5rem;
+
+    background-color: #ac5300;
+}
+
+
+.fish-burger{
+    background-color: #1C2123;    
+    text-align: center;
+    padding: 6rem;
+}
+
+.fish-burger h2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-size: 2.2rem;
+    color: #DC9457;
+    max-width: 80% !important;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+.fish-burger h2::before,.fish-burger h2:after{
+
+    content: "";
+    height: 2px;
+    background-color:#DC9457;
+    display: block;
+
+}
+
+.fish-burger div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+
+.fish-burger div p{
+    font-size: 5.5rem;
+    color: white;
+    font-weight: bold;
+
+ }
+
+.fish-burger div p span{
+    color: #DC9457;
+    font-size: 5rem;
+}
+
+
+
+.tomato-sauce,.salad{
+    display: flex;
+  }
+
+ .salad div{
+    background-color: #1C2123 !important;
+   }
+
+.tomato-sauce img, .salad img{
+
+    max-width: 50%;
+ }
+
+.tomato-sauce div,.salad div{
+     text-align: center;
+     margin:auto;
+     background-color:white;
+     padding: 25.5rem 0;
+ }
+
+ 
+
+.tomato-sauce div h2,.salad div h2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-size: 3.2rem;
+    color: #DC9457;
+    max-width: 90% !important;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.salad div h2{
+    color: white !important;
+}
+
+.tomato-sauce div h2::before, .tomato-sauce div h2::after{
+
+    content: "";
+    height: 3px;
+    background-color:#DC9457;
+    display: block;
+}
+
+
+
+.salad div h2::before, .salad div h2:after{
+
+    content: "";
+    height: 3px;
+    background-color:white;
+    display: block;
+}
+
+
+
+
+.tomato-sauce div p span{
+    color: #EF3D5B !important;
+    font-size: 5rem !important;
+    
+}
+
+.tomato-sauce div p,.salad div p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+
+.salad div p{
+    color: white !important;
+}
+
+.salad div #second{
+    font-size: 4rem !important ;
+}
+
+
+.tomato-sauce div p span,.salad div p span{
+    font-size: 4rem;
+ }
+
+ .salad  .fresh{
+    color: #57B957 !important;
+    margin: 0 !important;
+ }
+
+
+.tomato-sauce div span,.salad div span{
+    display: inline-block;
+    margin-bottom: 3.2rem;
+    font-size: 1.4rem;
+}
+
+.salad div span{
+    color: white !important;
+ }
+
+.tomato-sauce div .desc,.salad div .desc2{
+    
+    font-size: 1.8rem;
+    margin-bottom: 3.5rem;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.tomato-sauce div a ,.salad div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1.2rem 2rem;
+    border-radius: 0.3rem;
+}
+
+
+.tomato-sauce div a{
+
+    background-color: #EF3D5B;
+
+}
+
+.salad div a {
+
+    background-color: #57B957;
+
+}
+
+.subscribe{
+    background-color: #1C2123;
+    padding: 3.5rem 0rem;
+    
+}
+
+.subscribe h2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #DC9457;
+    max-width: 60% !important;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+
+.subscribe h2::before,.subscribe h2::after{
+
+    content: "";
+    height: 3px;
+    background-color:#DC9457;
+    display: block;
+
+}
+
+.subscribe div{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+     max-width: 41%;
+    margin: auto;
+}
+
+.subscribe div p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.subscribe form{
+    max-width: 65%;
+     display: flex;
+    align-items: center;
+}
+
+.subscribe form .email{
+    min-width: 80%;
+    max-height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding:1.8rem 1rem;
+    margin-right: 0.4rem;
+}
+
+.subscribe form .sign-btn{
+    color: white;
+    border-radius:0.5rem;
+    background-color:#DC9457;
+    min-width: 8rem;
+    padding: 1.2rem ;
+     font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+
+.footer{
+    max-width: 100%;
+    padding: 3rem 0rem;
+}
+
+.footer-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container h2{
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:black;
+}
+
+.footer-container p{
+    margin-bottom: 4rem;
+    color: black;
+}
+
+.footer-container ul{
+    list-style-type: none;
+}
+
+.footer-container ul li{
+    color: black;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-container .icons{
+    display: flex;
+}
+.footer-container .icons img{
+    max-width: 1.5rem;
+    margin-right: 1rem;
+}
+
+/*---------------------Animation------------------------*/
+
+ 

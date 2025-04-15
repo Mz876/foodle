@@ -1,0 +1,545 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+   }
+
+
+
+.main-container{
+     margin: auto;
+}
+
+header{
+    background-color: #ffb80e;
+     z-index: 1111;
+     position: relative;
+
+}
+
+nav .humbergure-Icon{
+    display: none;
+     
+     }
+
+/* .overlay{
+    opacity: 0.5;
+    background-color: white;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+
+
+} */
+
+#side-bar{
+     position: fixed;
+   right: -360px;    
+   top: 0;
+   z-index: 3333;
+   width: 300px;
+   height: 100%;
+   background-color: #ffc43a;
+   transition: all ease 0.5s;
+      
+} 
+
+  .side-bar-show{
+         width: 100%;
+          right: 0px !important;
+         }
+
+
+.side-bar div img{
+    max-width: 3rem;
+    margin: 1rem;
+}
+
+.side-bar ul {
+    list-style-type: none;
+    width: 100% !important;
+    margin-top: 8rem;
+
+}
+
+.side-bar ul li{
+    text-align: center;
+    border-top: 1px solid black;
+    
+    padding:  2rem 0rem;
+}
+
+.side-bar ul li:last-child{
+    border-bottom: 1px solid black;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+    color: black;
+     font-size: 3.2rem;
+    font-weight: 500;
+}
+
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 8rem;
+    width: 100% !important;
+    position: fixed;
+    top: 0;
+    z-index: 33;
+     background-color: #ffb80e;
+  }
+
+ nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+
+/**/
+
+.different{
+    border:none;
+    position: relative;
+    padding-bottom: 10px ;
+   }
+  .different:hover{
+    border: none;
+   }
+  
+  .different::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: #e32929;
+    transition: all ease-in-out .2s;
+  }
+  .different:hover::after{
+    width: 100%;
+    left: 0;
+  }
+
+/**/
+
+/* nav .L-nav{
+    display: flex;
+    align-items: center;
+} */
+
+ nav .L-nav a{
+    background-color: #e32929;
+   padding: 0.5rem 0.8rem ;
+   border-radius: 12px;
+}
+
+ 
+
+nav  .title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+header .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 12rem;
+    margin-top: 6rem;
+   }
+
+header .main-1{
+ 
+}
+
+header .main .main-1 h2{
+    font-size: 3rem;
+    color: rgb(255, 38, 0);
+    font-weight: bold;
+    margin-bottom: 2.4rem;
+}
+
+header .main .main-1 p{
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+header .main .main-1 .BO{
+    display: flex;
+    min-width: 90%;
+    float: left; 
+    justify-content: space-between;
+}
+
+header .main .BO .BuyNow{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    min-width: 8rem;
+     display: flex;
+     justify-content: space-around;
+    border-radius: 2rem;
+    padding: 0.3rem 0;
+}
+
+header .main .BO .BuyNow a{
+
+    background-color: #ffb80e;
+    border-radius: 3rem;
+    padding: 0.1rem;
+}
+header .main .BO .BuyNow img{
+    margin: auto;
+    padding: 0.1rem;
+}
+
+header .main .BO .BuyNow span{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header .main .BO .play{
+    display: flex;
+    align-items: center;
+}
+
+header .main .BO img{
+    max-width: 2rem;
+    margin-right: 0.5rem;
+    background-color: #ffb80e;
+    border-radius: 1rem;
+}
+
+header .main .arrow{
+     position: absolute;
+    max-width: 25%;
+    max-height: 65%;
+    top: 11%;
+    right: 44%;
+   }
+
+header .main .main-2{
+     max-width: 30%;
+ }
+
+.main .main-2 img{
+    width: 100%;
+}
+
+header .motivators{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+    max-width: 75%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; 
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+header .motivators .motive{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+header .motivators .motive img{
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-right: 1rem;
+    background-color: #ffb80e;
+    border-radius: 1rem;
+    padding:0.7rem;
+}
+
+header .motivators div h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+
+}
+
+.container{
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 14rem;
+    max-width: 70%;
+
+  }
+
+.container .c-1{
+    display: flex;
+    justify-content: space-around;
+     margin: auto;
+    margin-bottom: 2.5rem;
+
+ }
+
+
+.container .c-1 h4{
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   color: gray;
+}
+
+
+.container .c-1 h2{
+    font-size: 2.2rem;
+}
+
+.container .c-1 h2 span{
+    color: red;
+}
+
+.container .Categories{
+    display: flex;
+    justify-content: space-around;
+     margin: auto;
+  }
+
+
+
+.container .Categories div{
+    max-width: 24%;
+     border-radius: 75% 25% 44% 51% / 60% 31% 67% 29%;
+    text-align: center;
+    height: 20rem !important;
+    
+}
+
+.Categories .cat-1 {
+    background-color: greenyellow;
+}
+
+.Categories .cat-2{
+    background-color: rgb(255, 153, 0);
+}
+
+.Categories .cat-3{
+    background-color: rgb(255, 66, 66);
+}
+
+.container .Categories div img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.Categories div h3{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.Categories div span{
+    color: red;
+    font-weight: bold;
+}
+
+
+.menu{
+     margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+
+}
+
+.menu .m-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.menu .m-1 a{
+    text-decoration: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    background-color: #e32929;
+}
+
+.menu h2{
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+
+.menu .m-1 h4{
+    color: gray;
+}
+
+.menu .m-2 {
+
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+
+.menu .food{
+    margin: 2rem;
+      border-radius: 1rem;
+     padding: 1rem 0.7rem;
+     min-width: 25%;
+      background-color:  #ffb80e;
+     position: relative;     
+}
+
+.menu .food .img{
+    
+    position: absolute;
+    top: -15%;
+    right: -15%;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 67, 67);
+    height: 145px;
+    width: 145px;
+}
+
+.food .img img{
+    width: 100%;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.menu .food h3{
+    margin-top: 8rem;
+
+ }
+
+.rating {
+    display: flex;
+    margin-bottom: 0.9rem;
+    background-color: #e32929;
+    max-width: 30%;
+    padding: 0.2rem 0.1rem;
+    border-radius: 0.5rem;
+    
+}
+
+.menu .rating img{
+    max-width: 1rem;
+    margin-right: 0.2rem;
+ }
+
+.menu .food .buy a{
+    background-color: #e32929;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+ }
+
+.menu .food .buy{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+
+.menu .food .buy span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.offers{
+    display: flex;
+     margin: auto;
+    max-height: 80% !important;
+    height: 100%;
+  }
+
+ .offers .L-Offers{
+    max-width: 50%;
+     margin-right: 0.7rem;
+    border-radius: 1rem;
+  }
+
+ .offers .L-Offers img{
+    width: 100%;
+    height: 100% !important;
+    border-radius: 1rem;
+ }
+
+.offers .R-Offers{
+    max-width: 40%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.offers .R-Offers img{
+    height: 50% !important;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+.offers .offer-2{
+    max-height: 330px;
+}
+
+.footer{
+    
+    padding: 3rem 0rem;
+    background-color: #ffb80e;
+    
+}
+
+.footer-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container h2{
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(231, 0, 0);
+}
+
+.footer-container p{
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.footer-container ul{
+    list-style-type: none;
+}
+
+.footer-container ul li{
+    color: white;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-container .icons{
+    display: flex;
+}
+.footer-container .icons img{
+    max-width: 1.5rem;
+    margin-right: 1rem;
+}
+
+ 

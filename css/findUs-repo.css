@@ -1,0 +1,404 @@
+@media screen and (max-width:1600px){
+
+    .cards{
+        max-width: 65vw !important;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .cards{
+        max-width: 80vw !important;
+    }
+    
+}
+
+@media screen and (max-width:1100px){
+
+
+    html{
+        font-size: 14px;
+    }
+
+ .container .cards{
+      max-height: 50vh !important;
+      width: 100vw !important;
+      
+      
+   }
+
+ 
+/* .container .cards div{
+  height: 100% !important;
+  width: 33.3%!important;
+} */
+
+.container .cards div span{
+    font-size: 1.8rem;
+}
+
+.container .cards div h2{
+    font-size: 2.6rem;
+}
+
+.container .cards div p{
+    font-size: 1.2rem;
+    max-width: 100% !important;
+}
+
+
+.subscribe h3{
+    font-size: 1.5rem;
+}
+
+
+.signUp form {
+    min-width: 40%;
+ }
+
+    
+}
+
+@media screen and (max-width:960px){
+
+    html{
+        font-size: 12px;
+    }
+
+    header nav a {
+        font-size: 1.7rem !important
+    }
+
+/*  
+    .container{
+        min-height: 80vh;
+    }
+ */
+
+    .cards{
+        height: 42vh !important;
+    }
+
+    .footer .footer-container div{
+        min-width: 45% !important;
+      }
+
+   .footer .footer-container div h2{
+      font-size: 2.5rem;
+    }
+
+
+    .footer .footer-container p{
+        font-size: 1.1rem;
+    }
+
+
+    .footer .footer-container div ul li{
+        font-size: 1.2rem;
+    }
+
+
+
+    
+}
+
+@media screen and (max-width:850px){
+
+    html{
+        font-size: 10px;
+    }
+
+    header .title{
+        font-size: 3rem !important;
+    }
+
+    header nav a{
+        font-size: 1.8rem !important;
+    }
+    
+
+    .container{
+        min-height: 55vh !important;
+    }
+     
+    
+
+    .container .cards{
+        height: 40vh !important;
+        max-width: 96vw !important;
+         
+        
+     }
+  
+   
+  /* .container .cards div{
+    height: 100% !important;
+    max-width: 33.3%!important;
+  }
+   */
+  .container .cards div span{
+      font-size: 2.5rem;
+  }
+  
+  .container .cards div h2{
+      font-size: 3rem;
+  }
+  
+  .container .cards div p{
+      font-size: 1.4rem;
+  }
+
+  .subscribe .signUp form{
+    min-width: 45% !important;
+   }
+
+
+  .subscribe .signUp  form input{
+
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+  }
+
+
+  .subscribe .signUp form button{
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+    
+
+    
+}
+
+
+@media screen and (max-width:800px){
+
+
+    form input{
+         padding: 1rem !important;
+        font-size: 0.5rem;
+    }
+
+    form button{
+        padding: 1rem !important;
+    }
+
+}
+
+@media screen and (max-width:680px){
+
+ 
+
+
+   
+
+    .container .cards{
+        max-height: 40vh !important;
+          
+        
+     }
+  
+/*    
+  .container .cards div{
+    height: 100% !important;
+    max-width: 33.3%!important;
+  }
+   */
+  .container .cards div span{
+      font-size: 2.5rem;
+  }
+  
+  .container .cards div h2{
+      font-size: 3rem;
+  }
+  
+  .container .cards div p{
+      font-size: 1.2rem;
+  }
+
+
+
+}
+
+
+@media screen and (max-width:640px){
+
+    .container .cards{
+        max-height: 35vh !important;
+    }
+
+    .container .cards div span{
+        font-size: 2rem;
+    }
+    
+    .container .cards div h2{
+        font-size: 2.5rem;
+    }
+    
+    .container .cards div p{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+  
+   
+    
+}
+
+@media screen and (max-width:600px){
+
+    html{
+        font-size: 8px;
+    }
+
+    header nav{
+        justify-content: space-between !important;
+        padding: 2rem ;
+        width: 100% !important;
+    }
+
+    header nav a{
+        font-size: 2.2rem !important;
+    }
+ 
+    .container .cards div span{
+        font-size: 2.2rem;
+    }
+    
+    .container .cards div h2{
+        font-size: 3rem;
+    }
+    
+    .container .cards div p{
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .container .cards div a{
+        font-size: 1.5rem;
+    }
+
+
+    header nav .mid{
+        display: none;
+    }
+
+    header nav #humb-Icon{
+        display: inline-block;
+    }
+ 
+
+}
+
+@media screen and (max-width:560px){
+
+    html{
+        font-size: 12px;
+    }
+
+    header nav a{
+        font-size: 1.5rem !important;
+    }
+
+     .food-container{
+        padding:10rem 0;
+    }
+
+    
+
+    .food-location-1 img{
+        display: none;
+    }
+
+    .food-location-2 img{
+        display: none;
+    }
+    
+
+    .container{
+        min-height: 10%  !important;
+    }
+
+    .container .cards{
+        display: none;
+    }
+     
+
+    .subscribe .signUp{
+        flex-direction: column;
+
+    }
+
+    .subscribe .signUp div{
+        margin-bottom: 2rem;
+    }
+
+
+    .subscribe .signUp form{
+        min-width: 60% !important;
+     }
+
+    .subscribe .signUp form input{
+        min-width: 65% !important;
+    }
+    
+}
+
+@media screen and (max-width:535px){
+
+
+    .footer .footer-container{
+        flex-direction: column;
+    }
+    
+    .footer .footer-container div{
+        margin-bottom: 1rem;
+    }
+
+    .footer .footer-container ul li{
+        font-size: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width:505px){
+
+
+    header nav{
+        padding: 2rem 1rem;
+    }
+
+    header nav a{
+        font-size: 1.4rem !important;
+        margin-right: 0.3rem;
+    }
+
+
+    .signUp p{
+        text-align: center;
+    }
+
+    .signUp  form{
+        display: flex;
+         flex-direction: column;
+     }
+
+  .signUp form button{
+    max-width: 40% !important;
+    margin: auto;
+    margin-top: 1rem;
+  }
+    
+    
+}
+
+@media screen and (max-width:340px) {
+
+
+    header .title{
+        font-size: 2.2rem !important;
+    }
+
+    header nav a{
+        font-size: 1.3rem !important;
+    }
+    
+}

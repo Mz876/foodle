@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    max-width: 60%;
+    margin: auto;
+}
+
+form ul{
+    list-style-type: none;
+     margin: auto;
+    margin-top: 3rem !important;
+}
+
+form ul li{
+    margin-bottom: 1rem;
+}
+ 
+form label{
+
+    font-size: 2.4rem;
+    margin-right: 3rem;
+    display: block !important;
+    margin-bottom: 2rem !important;
+    
+}
+
+form input[type='text']{
+ min-width: 98% !important;
+ padding: 1rem 1rem;
+ border: 1px solid black;
+ border-radius: 0.6rem;
+ font-size: 1.1rem;
+ outline: none;
+}
+
+form textarea{
+
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+form button{
+    background-color: #FFB80E;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid #DDD;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.4rem;
+
+   }
