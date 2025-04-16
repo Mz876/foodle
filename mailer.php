@@ -24,7 +24,7 @@ try {
     $mail->Port       = 587;
     
     // Sender info
-    $mail->setFrom('mustafazabet55@gmail.com', 'Foodle');
+    $mail->setFrom('', 'Foodle');
     
     // Send to each recipient individually
     while ($row = mysqli_fetch_assoc($receipent)) {
